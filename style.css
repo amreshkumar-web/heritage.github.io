@@ -19,10 +19,11 @@ html{
 
 .fest{
     
-    font-weight: lighter;
+    font-size: 3.5rem;
 }
 .ptxt{
-    font-size: 7px;
+    font-size: 1.5rem;
+    font-weight: lighter;
 }
 
 .calendar{
@@ -32,7 +33,8 @@ html{
     display: flex;
     align-items:center ;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 60px;
+    justify-content: center;
 }
 .festbtn{
     width: 20%;
@@ -45,11 +47,11 @@ html{
    
 }
 .festimg {
-    width: 20rem;
-    height: 19rem;
+    width: 50rem;
+    height: 45rem;
     background-color: rgb(0, 0, 0);
     border-radius: 20px;
-    background-image: url(/btnimg/republic.jpg);
+    background-image: url(republic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,8 +77,8 @@ html{
     
 }
 .yearBtn{
-    width:8rem;
-    height: 23px;
+    width:20rem;
+    height: 55px;
     background-color: red;
     border: 1px solid goldenrod;
     border-radius: 5px;
@@ -84,7 +86,7 @@ html{
     box-shadow: 1px 2px 3px rgb(0, 0, 0,0.5),inset 1px 2px 8px rgba(255, 255, 255, 0.4);
 }
 #btn1,#btn2,#btn3,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btn10,#btn11,#btn12{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/jan.jpg);
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(jan.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,30 +95,30 @@ html{
     padding-left: 4px;
     align-items: center;
     font-family: 'Exo 2', sans-serif;
-    font-size: 7PX;
+    font-size: 15PX;
     font-family: 200;
     color: rgb(255, 255, 255);
     position: relative;
     overflow: hidden;
 }
 #btn2{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/feb.jpg);
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(feb.jpg);
 }
 #btn3{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/mar.jpg);
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(mar.jpg);
 }
 #btn4{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/april.jpg);
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(april.jpg);
 }
 #btn5{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/may.jpg);
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(may.jpg);
 }
 #btn6{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/june.jpg);
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(june.jpg);
 }
 .shine{
     position: absolute;
-    width: 15px;
+    width: 35px;
     height: 190%;
     background-color: rgba(255, 255, 255, 0.6);
     filter: brightness(4);
@@ -124,7 +126,7 @@ html{
     left: -50%;
     transform:rotateZ(30deg);
     transition: 01s ease-out ;
-    box-shadow: 0px 0px 8px rgb(255, 255, 255,1);
+    box-shadow:0px 0px 28px rgb(255, 255, 255,1);
     
     
 }
@@ -145,27 +147,27 @@ html{
 }
 
 #btn7{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/july.jpg); ;
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(july.jpg); ;
 }
 #btn8{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/aug.jpg); ;
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(aug.jpg); ;
 }
 #btn9{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/sep.jpg); ;
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(sep.jpg); ;
 }
 #btn10{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/oct.jpg); ;
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(oct.jpg); ;
 }
 #btn11{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/nov.jpg); ;
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(nov.jpg); ;
 }
 #btn12{
-    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(/btnimg/dec.jpg); ;
+    background-image:linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2)), url(dec.jpg); ;
 }
 .splash{
     position: absolute;
     width: 100vw;
-    height: 60px;
+    height: 110px;
     top: -20px;
 }
 

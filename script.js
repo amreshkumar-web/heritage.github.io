@@ -5,7 +5,7 @@ function change(element,count){
     clearTimeout(time);
     if(count!=check){
         cal.style.animation="no";
-        cal.style.cssText="background-image: url(/boximg/" + element + "); animation: popup 1s;";
+        cal.style.cssText="background-image: url("+ element + "); animation: popup 1s;";
     var time=setTimeout(function(){cal.style.animation="no";},1200);
     }
     check=count;
